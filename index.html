@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>The Flag of Mexico - Colegio Guadalupe Edition</title>
+    <title>The Flag of Mexico</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,21 +84,6 @@
         /* Estilo para la línea "By: [Nombre] - Colegio" en portada */
         .by-line { color: #795548; font-size: 2.2em; margin-bottom: 20px; }
 
-        /* Nombre del colegio en la ESQUINA INFERIOR DERECHA y MARRÓN */
-        .school-logo-corner {
-            position: absolute;
-            bottom: 30px; 
-            right: 30px;  
-            font-size: 1.6em; 
-            color: #795548; 
-            font-weight: bold;
-            font-family: 'Montserrat', sans-serif;
-            pointer-events: none;
-            background: rgba(255,255,255,0.7); 
-            padding: 5px 15px;
-            border-radius: 15px;
-        }
-
         /* IMÁGENES GIGANTES */
         .img-giant {
             height: 40vh;
@@ -144,11 +129,11 @@
 </head>
 <body>
 
-    <!-- Slide 1: Welcome (Sello inferior eliminado) -->
+    <!-- Slide 1: Welcome -->
     <div id="slide1" class="slide active bg-gold">
         <h1>The Flag of Mexico</h1>
         <!-- PON EL NOMBRE DE TU HIJO AQUÍ -->
-        <h3 class="by-line">By: Diego Matías Chablé Sánchez - COLEGIO GUADALUPE</h3>
+        <h3 class="by-line">By: Diego Matías Chablé Sánchez</h3>
         <img src="bandera.png" class="img-giant" alt="Mexican Flag">
         <p>The flag is one of the three National Symbols of our country and represents us throughout the world.</p>
         <div class="btn-container">
@@ -166,7 +151,6 @@
             <button class="btn btn-back" onclick="nextSlide(1)">⬅️ Back</button>
             <button class="btn" onclick="nextSlide(3)">Next ➡️</button>
         </div>
-        <div class="school-logo-corner">COLEGIO GUADALUPE</div>
     </div>
 
     <!-- Slide 3: Meaning - White -->
@@ -179,7 +163,6 @@
             <button class="btn btn-back" onclick="nextSlide(2)">⬅️ Back</button>
             <button class="btn" onclick="nextSlide(4)">Next ➡️</button>
         </div>
-        <div class="school-logo-corner">COLEGIO GUADALUPE</div>
     </div>
 
     <!-- Slide 4: Meaning - Red -->
@@ -192,7 +175,6 @@
             <button class="btn btn-back" onclick="nextSlide(3)">⬅️ Back</button>
             <button class="btn" onclick="nextSlide(5)">Next ➡️</button>
         </div>
-        <div class="school-logo-corner">COLEGIO GUADALUPE</div>
     </div>
 
     <!-- Slide 5: Coat of Arms -->
@@ -206,7 +188,6 @@
             <button class="btn btn-back" onclick="nextSlide(4)">⬅️ Back</button>
             <button class="btn" onclick="nextSlide(6)">Fun Facts! 🔍</button>
         </div>
-        <div class="school-logo-corner">COLEGIO GUADALUPE</div>
     </div>
 
     <!-- Slide 6: Fun Facts (Date) -->
@@ -218,7 +199,6 @@
             <button class="btn btn-back" onclick="nextSlide(5)">⬅️ Back</button>
             <button class="btn" onclick="nextSlide(7)">Next ➡️</button>
         </div>
-        <div class="school-logo-corner">COLEGIO GUADALUPE</div>
     </div>
 
     <!-- Slide 7: Fun Facts (Trophy) -->
@@ -230,7 +210,6 @@
             <button class="btn btn-back" onclick="nextSlide(6)">⬅️ Back</button>
             <button class="btn" onclick="nextSlide(8)">Finish 🏁</button>
         </div>
-        <div class="school-logo-corner">COLEGIO GUADALUPE</div>
     </div>
 
     <!-- Slide 8: Grand Finale -->
@@ -241,7 +220,6 @@
             <button class="btn btn-back" onclick="nextSlide(7)">⬅️ Back</button>
             <button class="btn" onclick="celebrateAndReset()">Celebrate! 🎉</button>
         </div>
-        <div class="school-logo-corner">COLEGIO GUADALUPE</div>
     </div>
 
     <script>
