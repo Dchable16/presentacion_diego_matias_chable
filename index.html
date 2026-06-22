@@ -125,6 +125,19 @@
         @keyframes floatLarge { 0%, 100% {transform: translateY(0);} 50% {transform: translateY(-20px);} }
         .confetti { position: absolute; width: 25px; height: 25px; z-index: 100; animation: fall linear forwards; border-radius: 50%; }
         @keyframes fall { to { transform: translateY(110vh) rotate(1440deg); } }
+        /* --- DISEÑO RESPONSIVO PARA PANTALLAS HORIZONTALES --- */
+        @media (max-height: 850px) {
+            .slide { padding: 15px; }
+            h1 { font-size: 3.5em; margin-bottom: 0; }
+            h2 { font-size: 2.8em; margin-bottom: 10px; }
+            h3 { font-size: 2em; }
+            p { font-size: 1.6em; margin: 10px 0; }
+            .by-line { font-size: 1.5em; margin-bottom: 10px; }
+            .img-giant { height: 35vh; margin: 10px 0; }
+            .img-row img { height: 30vh; }
+            .btn { font-size: 1.5em; padding: 10px 30px; }
+            .btn-container { margin-top: 15px; }
+        }
     </style>
 </head>
 <body>
